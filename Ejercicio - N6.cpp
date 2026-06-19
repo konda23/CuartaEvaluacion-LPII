@@ -34,6 +34,7 @@ int main() {
         
           
     do {
+    	entradaValida = false;
         system("cls"); 
 
         cout << "==================== GRAFICAR NOMBRE ====================" << endl;
@@ -73,7 +74,7 @@ int main() {
         cout << "2...no "<<endl;
         cin >> repetir;
 
-    } while (repetir != 1);
+    } while (repetir != 2);
      system("cls");
     cout << "Programa finalizado " << endl;
     return 0;
